@@ -1,14 +1,18 @@
 # Credit Card Fraud Detection
 
 ## Objective
-Detect fraudulent credit card transactions using Machine Learning.
+Detect fraudulent credit card transactions using Machine Learning techniques.
 
 ## Dataset
 Credit Card Fraud Detection Dataset
 
+Dataset Source:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ## Technologies Used
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
 
@@ -27,15 +31,20 @@ Random Forest Classifier
 - Recall (Fraud): 76%
 - F1-Score (Fraud): 84%
 
-## Results
-
-Classification Report:
+## Classification Results
 
 | Class | Precision | Recall | F1-Score |
 |---------|---------|---------|---------|
-| Genuine (0) | 1.00 | 1.00 | 1.00 |
-| Fraud (1) | 0.94 | 0.76 | 0.84 |
+| Genuine Transaction (0) | 1.00 | 1.00 | 1.00 |
+| Fraudulent Transaction (1) | 0.94 | 0.76 | 0.84 |
 
 ## Outcome
 
-Successfully built a fraud detection model capable of identifying fraudulent credit card transactions with 99.92% accuracy.
+Successfully built a machine learning model to identify fraudulent credit card transactions. The model achieved 99.92% accuracy and demonstrated strong fraud detection performance.
+
+## Project Structure
+
+Credit_Card_Fraud_Detection
+│
+├── Credit_Card_Fraud_Detection.ipynb
+└── README.md
